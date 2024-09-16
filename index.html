@@ -3,10 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>John Doe | Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header h2 {
+            margin: 10px 0;
+            color: #777;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        .skills li {
+            display: inline-block;
+            margin-right: 10px;
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Website</h1>
-    <p>This is my first GitHub Pages site.</p>
+    <div class="container">
+        <header>
+            <h1>Arpit</h1>
+            <h2>Software Engineer</h2>
+            <p>Email: johndoe@example.com | Phone: +123-456-7890 | Location: City, Country</p>
+        </header>
+
+        <!-- Summary -->
+        <section>
+            <h3>Summary</h3>
+            <p>
+                Passionate software engineer with 5+ years of experience in developing scalable web applications and working with cross-functional teams. Skilled in various programming languages and frameworks, and continuously learning to expand my knowledge base.
+            </p>
+        </section>
+
+        <!-- Work Experience -->
+        <section>
+            <h3>Work Experience</h3>
+            <ul>
+                <li><strong>Software Engineer</strong> at XYZ Corp (2019 - Present)
+                    <ul>
+                        <li>Developed high-performance web applications using React.js and Node.js</li>
+                        <li>Implemented RESTful APIs to optimize data retrieval and integration</li>
+                        <li>Collaborated with product teams to design innovative features</li>
+                    </ul>
+                </li>
+                <li><strong>Junior Developer</strong> at ABC Solutions (2016 - 2019)
+                    <ul>
+                        <li>Assisted in building and maintaining internal tools using Python and Django</li>
+                        <li>Optimized SQL queries to enhance system performance by 30%</li>
+                        <li>Worked with the DevOps team to automate deployment processes</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Master's Degree in Computer Science</strong>, University of Technology (2014 - 2016)</li>
+                <li><strong>Bachelor's Degree in Information Technology</strong>, University of Science (2010 - 2014)</li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h3>Skills</h3>
+            <ul class="skills">
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Git & GitHub</li>
+                <li>Docker</li>
+                <li>Agile Methodologies</li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h3>Projects</h3>
+            <ul>
+                <li><strong>Personal Portfolio Website</strong> - A personal website built using HTML, CSS, and JavaScript to showcase my projects and skills.</li>
+                <li><strong>Task Manager App</strong> - A full-stack web app to manage daily tasks, built using React.js and Node.js.</li>
+                <li><strong>Data Visualization Dashboard</strong> - A Python-based data visualization dashboard using Plotly and Dash.</li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section>
+            <h3>Contact</h3>
+            <p>Feel free to reach out to me via <a href="mailto:johndoe@example.com">email</a> or connect with me on <a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn</a>.</p>
+        </section>
+    </div>
 </body>
 </html>
